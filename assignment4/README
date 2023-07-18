@@ -1,0 +1,45 @@
+Jake Soule
+101131271
+COMP2402 Assignment 3
+
+a4
+
+Date (Entity object)
+	stores information of a Date.
+	
+Part (Entity object)
+	Virtual base class of all Parts
+	Also contains:
+	
+	FH_Part (Entity object)
+		A part that must be inspected after a certain number of flight hours
+		
+	IT_Part (Entity object)
+		A part that must be inspected after a certain number of days of being installed on an aircraft
+	
+	FHIT_Part (Entity object)
+		A part that must be inspected after a certain number of days of being installed on an aircraft 
+		and after a certain number of flight hours
+		
+Array (Container object)
+	A simple templated data structure
+
+Aircraft (Entity/Container object)
+	Aircraft data and container for the installed Parts
+
+Airline (Control object)
+	Tracks parts, aircraft, installations, flights, etc.
+	
+Control (Control object)
+	Provides a test framework for the Airline
+	
+View (View object)
+	Collects user input and provides system output
+	
+--------------------------------------------------------------------------------------------------------------
+
+To compile a4: open terminal HERE (in README file location) and execute:
+"make -f Makefile"
+
+To run executable a4: open terminal HERE (in README file location and execute:
+"./a4"
